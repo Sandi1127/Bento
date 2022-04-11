@@ -11,7 +11,7 @@ const CONFIG = {
 	// └─┘┴ ┴└─┘┴└─┘└─┘
 
 	// General
-	name: 'Sandro',
+	name: 'John',
 	imageBackground: false,
 	openInNewTab: true,
 	twelveHourFormat: false,
@@ -23,20 +23,20 @@ const CONFIG = {
 	greetingNight: 'Go to Sleep!',
 
 	// Layout
-	bentoLayout: 'lists', // 'bento', 'lists', 'buttons'
+	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
 
 	// Weather
-	weatherKey: '19617face95121bc76ef1d4af77af5b7', // Write here your API Key
+	weatherKey: 'InsertYourAPIKeyHere123456', // Write here your API Key
 	weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
 	weatherUnit: 'C', // 'F', 'C'
 	language: 'en', // More languages in https://openweathermap.org/current#multi
 
-	trackLocation: false, // If false or an error occurs, the app will use the lat/lon below
-	defaultLatitude: '48.711920',
-	defaultLongitude: '9.861420',
+	trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
+	defaultLatitude: '37.775',
+	defaultLongitude: '-122.419',
 
 	// Autochange
-	autoChangeTheme: false,
+	autoChangeTheme: true,
 
 	// Autochange by OS
 	changeThemeByOS: true,
@@ -135,44 +135,47 @@ const CONFIG = {
 	// First Links Container
 	firstlistsContainer: [
 		{
-			icon: 'coffee',
+			icon: 'music',
 			id: '1',
 			links: [
 				{
-					name: 'YouTube',
+					name: 'Inspirational',
 					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
 				},
 				{
-					name: '/g/',
+					name: 'Classic',
 					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
 				},
 				{
-					name: '/biz/',
+					name: 'Oldies',
 					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
 				},
 				{
-					name: 'RSS',
+					name: 'Rock',
 					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
 				},
 			],
 		},
 		{
-			icon: 'mail',
+			icon: 'coffee',
 			id: '2',
 			links: [
 				{
-					name: 'IServ',
+					name: 'Linkedin',
 					link: 'https://www.linkedin.com',
 				},
 				{
-					name: 'Protonmail',
+					name: 'Dribbble',
 					link: 'https://www.dribbble.com',
 				},
 				{
-					name: 'Whatsapp',
+					name: 'Trello',
 					link: 'https://www.trello.com',
 				},
-
+				{
+					name: 'Slack',
+					link: 'https://www.slack.com',
+				},
 			],
 		},
 	],
@@ -180,45 +183,49 @@ const CONFIG = {
 	// Second Links Container
 	secondListsContainer: [
 		{
-			icon: 'shopping-cart',
+			icon: 'binary',
 			id: '1',
 			links: [
 				{
-					name: 'Amazon',
+					name: 'Spotify',
 					link: 'https://www.spotify.com',
 				},
 				{
-					name: 'Ebay',
+					name: 'Reddit',
 					link: 'https://www.reddit.com',
 				},
 				{
-					name: 'Kleinanzeigen',
+					name: 'Hashnode',
 					link: 'https://www.hashnode.com',
 				},
-
+				{
+					name: 'Pocket',
+					link: 'https://www.pocket.com',
+				},
 			],
 		},
 		{
-			icon: 'folder',
+			icon: 'github',
 			id: '2',
 			links: [
 				{
-					name: 'Englisch',
+					name: 'Front',
 					link: 'https://www.reddit.com/r/Frontend/',
 				},
 				{
-					name: 'Biologie',
+					name: 'Rust',
 					link: 'https://www.reddit.com/r/rust/',
 				},
 				{
-					name: 'Informatik',
+					name: 'Go',
 					link: 'https://www.reddit.com/r/golang/',
 				},
 				{
-					name: 'Technik',
+					name: 'Repos',
 					link: 'https://github.com/migueravila',
 				},
 			],
 		},
 	],
 };
+
