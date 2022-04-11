@@ -135,47 +135,44 @@ const CONFIG = {
 	// First Links Container
 	firstlistsContainer: [
 		{
-			icon: 'music',
+			icon: 'coffee',
 			id: '1',
 			links: [
 				{
-					name: 'Inspirational',
+					name: 'YouTube',
 					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
 				},
 				{
-					name: 'Classic',
+					name: '/g/',
 					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
 				},
 				{
-					name: 'Oldies',
+					name: '/biz/',
 					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
 				},
 				{
-					name: 'Rock',
+					name: 'RSS',
 					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
 				},
 			],
 		},
 		{
-			icon: 'coffee',
+			icon: 'mail',
 			id: '2',
 			links: [
 				{
-					name: 'Linkedin',
+					name: 'IServ',
 					link: 'https://www.linkedin.com',
 				},
 				{
-					name: 'Dribbble',
+					name: 'Protonmail',
 					link: 'https://www.dribbble.com',
 				},
 				{
-					name: 'Trello',
+					name: 'Whatsapp',
 					link: 'https://www.trello.com',
 				},
-				{
-					name: 'Slack',
-					link: 'https://www.slack.com',
-				},
+
 			],
 		},
 	],
@@ -183,45 +180,42 @@ const CONFIG = {
 	// Second Links Container
 	secondListsContainer: [
 		{
-			icon: 'binary',
+			icon: 'shopping-cart',
 			id: '1',
 			links: [
 				{
-					name: 'Spotify',
+					name: 'Amazon',
 					link: 'https://www.spotify.com',
 				},
 				{
-					name: 'Reddit',
+					name: 'Ebay',
 					link: 'https://www.reddit.com',
 				},
 				{
-					name: 'Hashnode',
+					name: 'Kleinanzeigen',
 					link: 'https://www.hashnode.com',
 				},
-				{
-					name: 'Pocket',
-					link: 'https://www.pocket.com',
-				},
+
 			],
 		},
 		{
-			icon: 'github',
+			icon: 'folder',
 			id: '2',
 			links: [
 				{
-					name: 'Front',
+					name: 'Englisch',
 					link: 'https://www.reddit.com/r/Frontend/',
 				},
 				{
-					name: 'Rust',
+					name: 'Biologie',
 					link: 'https://www.reddit.com/r/rust/',
 				},
 				{
-					name: 'Go',
+					name: 'Informatik',
 					link: 'https://www.reddit.com/r/golang/',
 				},
 				{
-					name: 'Repos',
+					name: 'Technik',
 					link: 'https://github.com/migueravila',
 				},
 			],
